@@ -1,0 +1,22 @@
+.Navbarr {
+ background-color: #ffcdb2;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.Navbarr .btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  margin-left: 1rem;
+  font-size: 15px;
+  background: #6D6875;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;}
+
+
+.Navbarr .btn:hover {
+  background: #FFCDB2;
+  text-decoration: none;
+}
