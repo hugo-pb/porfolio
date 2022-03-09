@@ -1,0 +1,27 @@
+.About p {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+.About h2 {
+    text-align: center;
+    margin-top: 1rem;
+}
+.About h4 {
+    margin-left: 2rem ;
+}
+.About .icons{
+display: flex;
+ justify-content: space-around;
+ height: 200px;
+  align-items: center;
+}
+.About .ic {
+    font-size: 10rem;
+}
+.About a {
+    text-decoration: none;
+    color:black
+}
+.About a:hover{
+    color:#FFCDB2;
+}
