@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Card } from "react-bootstrap";
 import "../Styles/Experience.css";
+import Own from './images/3own.png'
+import Sales from "./images/Salesforce.png";
 export default function Experience() {
   return (
     <div className="Experience">
@@ -12,7 +14,7 @@ export default function Experience() {
         }}
       >
         <Card style={{ width: "30rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src={Own} />
           <Card.Body>
             <Card.Title>WordPress Developer</Card.Title>
             <Card.Text>
@@ -36,7 +38,7 @@ export default function Experience() {
         </Card>
 
         <Card style={{ width: "30rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src={Sales} />
           <Card.Body>
             <Card.Title>Salesforce Developer</Card.Title>
             <Card.Text>
