@@ -5,3 +5,18 @@
     font-family:'Inspiration';
 font-size: 5rem;
 }
+.Projects  {
+    text-align: center;
+}
+.Projects .wedding {
+    background-color: #dee0e2;
+    padding: 2rem;
+}
+.Projects .team {
+background-color: #dee0e2;
+    padding: 2rem;
+}
+.Projects .weather {
+    background-color: #dee0e2;
+    padding: 2rem;
+}
