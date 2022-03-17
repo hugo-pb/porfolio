@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <div className="container" id="Contact">
-      <form  data-netlify="true">
+      <form data-netlify="true" netlify>
         <div className="mb-3">
           <label className="form-label">Email address</label>
           <input
