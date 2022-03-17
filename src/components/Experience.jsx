@@ -1,5 +1,7 @@
 import React from "react";
-import { Container, Card } from "react-bootstrap";
+import {
+  Container,
+} from "react-bootstrap";
 import "../Styles/Experience.css";
 import Own from "./images/3own.png";
 import Sales from "./images/Salesforce.png";

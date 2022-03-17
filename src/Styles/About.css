@@ -6,7 +6,9 @@
    
     padding-left: 1rem;
     padding-right: 2rem;
+    padding-bottom: 1rem;
     margin-top: 1rem;
+    margin-bottom: 0;
 }
 .About h2 {
     text-align: center;
@@ -30,5 +32,9 @@ display: flex;
     color:black
 }
 .About a:hover{
-    color:#003480;
+    color:#DFECF4;
 }
+.About ul {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+     }
