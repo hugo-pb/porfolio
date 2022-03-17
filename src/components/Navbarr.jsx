@@ -2,7 +2,7 @@ import React from 'react'
 import "../Styles/Navbarr.css"
 import Me from "./images/hugo-compu.png";
 import { Nav, Navbar, Container,Image } from 'react-bootstrap';
-import { Button } from 'bootstrap';
+
 export default function Navbarr() {
     return (
       <div className="Navbarr">
