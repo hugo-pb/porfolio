@@ -11,12 +11,13 @@
   font-family: Arial;
   margin-left: 1rem;
   font-size: 15px;
-  background: #6D6875;
+  background: #4C4C4C;
   padding: 10px 20px 10px 20px;
   text-decoration: none;}
 
 
 .Navbarr .btn:hover {
-  background: #FFCDB2;
+  background: #DFECF4;
   text-decoration: none;
 }
+

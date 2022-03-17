@@ -5,7 +5,7 @@ import "../Styles/Welcome.css";
 import DD from "./images/3d.glb"
 export default function Welcome() {
   return (
-    <div className="Welcome container-fluit">
+    <div className="Welcome container-fluit" id="Home">
       <div className="col-sm-6">
         {" "}
         <h1>Hey There!!</h1>

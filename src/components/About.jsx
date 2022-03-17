@@ -12,7 +12,7 @@ export default function About() {
   const [key, setKey] = useState("home");
   return (
     <div className="About">
-      <h2>About Hugo</h2>
+      <h2>About Me!</h2>
       <Tabs activeKey={key} onSelect={(k) => setKey(k)}>
         <Tab eventKey="home" title="Why coding?">
           <p>

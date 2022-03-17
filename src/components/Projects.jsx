@@ -6,7 +6,7 @@ import Weather from "./images/WeatherAPP.png";
 import Wedding from "./images/Weddingrsvp.png"
 export default function Projects() {
   return (
-    <div className="Projects">
+    <div className="Projects" id="Projects">
       <h2>Personal Projects</h2>{" "}
       <Row>
         <Col
