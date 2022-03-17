@@ -42,6 +42,7 @@ export default function Projects() {
           </p>
           <Button>Demo</Button> <Button>Code</Button>
         </Col>
+        <hr />
       </Row>
       <Row>
         <Col>

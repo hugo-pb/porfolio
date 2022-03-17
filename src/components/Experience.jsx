@@ -48,12 +48,12 @@ export default function Experience() {
             <div className="card">
               <div className="card-body">
                 <img src={Sales} className="card-img-top" alt="..."></img>
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Salesforce Developer</h5>
                 <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p className="card-text">
                   This job taught me what it takes to be a developer. Despite
                   having no prior expertise with Salesforce, I was able to fix a
-                  major problem for
+                  major problem for{" "}
                   <a
                     href="https://www.insuremontrose.com"
                     target="_blank"

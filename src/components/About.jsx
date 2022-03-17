@@ -9,9 +9,10 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 export default function About() {
+    
   const [key, setKey] = useState("home");
   return (
-    <div className="About">
+    <div className="About" >
       <h2>About Me!</h2>
       <Tabs activeKey={key} onSelect={(k) => setKey(k)}>
         <Tab eventKey="home" title="Why coding?">
