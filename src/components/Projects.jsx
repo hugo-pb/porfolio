@@ -1,9 +1,8 @@
-
 import React from "react";
-import { Col, Row, Image, Button } from "react-bootstrap";
+import { Col, Image } from "react-bootstrap";
 import "../Styles/Projects.css";
 import Weather from "./images/WeatherAPP.png";
-import Wedding from "./images/Weddingrsvp.png"
+import Wedding from "./images/Weddingrsvp.png";
 import Teampal from "./images/teampal.png";
 export default function Projects() {
   return (
@@ -20,7 +19,7 @@ export default function Projects() {
             }}
           />
         </div>
-        <div className="col-md-6 ">
+        <div className="col-md-6 project ">
           <h3>Weather APP</h3>
           <p>
             <small>First React.js Project </small>
@@ -44,13 +43,19 @@ export default function Projects() {
           </button>
         </div>
       </div>
-     
+      <hr />
       <div className="row wedding">
-        <Col>
-          <h3>Wedding</h3>
-          <p>
-            <small>First Team Project </small>
-          </p>
+        <div className="col-md-6  ">
+          <Image
+            src={Wedding}
+            style={{
+              height: "10rem",
+              marginTop: "3rem",
+            }}
+          ></Image>
+        </div>
+        <div className="col-md-6 project ">
+          <h3>Wedding </h3>
           <p>
             After learning state, props, components, and how powerful React is,
             I decided to build an app using all of the different things I was
@@ -68,32 +73,11 @@ export default function Projects() {
           <button type="button" class="btn btn-outline-primary">
             Code
           </button>
-        </Col>
-
-        <Col
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignContent: "center",
-          }}
-        >
-          <Image
-            src={Wedding}
-            style={{
-              height: "10rem",
-              marginTop: "3rem",
-            }}
-          ></Image>
-        </Col>
+        </div>
       </div>
+      <hr />
       <div className="row team">
-        <Col
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignContent: "center",
-          }}
-        >
+        <div className="col-md-6  ">
           <Image
             src={Teampal}
             style={{
@@ -101,8 +85,8 @@ export default function Projects() {
               marginTop: "3rem",
             }}
           ></Image>
-        </Col>
-        <Col>
+        </div>
+        <div className="col-md-6 project ">
           <h3>Team Pal Designs</h3>
           <p>
             <small>First React.js Project </small>
@@ -124,7 +108,7 @@ export default function Projects() {
           <button type="button" class="btn btn-outline-primary">
             Code
           </button>
-        </Col>
+        </div>
       </div>
       <hr />
     </div>

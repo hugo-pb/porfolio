@@ -1,22 +1,33 @@
 .Projects h2 {
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-family:'Inspiration';
 font-size: 5rem;
+display: block;
+  
 }
 .Projects  {
     text-align: center;
 }
 .Projects .wedding {
-    background-color: #dee0e2;
+   
+    color: black;
     padding: 2rem;
 }
 .Projects .team {
-background-color: #dee0e2;
+ color: black;
     padding: 2rem;
 }
 .Projects .weather {
-    background-color: #dee0e2;
+ color: black;
     padding: 2rem;
+}
+
+.Projects .project {
+     max-width: 550px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
 }
