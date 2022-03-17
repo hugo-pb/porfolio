@@ -1,7 +1,5 @@
 import React from "react";
-import {
-  Container,
-} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "../Styles/Experience.css";
 import Own from "./images/3own.png";
 import Sales from "./images/Salesforce.png";
@@ -22,7 +20,7 @@ export default function Experience() {
               <div className="card-body">
                 <img src={Own} className="card-img-top" alt="..."></img>
                 <h5 className="card-title">WordPress Developer</h5>
-                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+
                 <p className="card-text">
                   Working with{" "}
                   <a
@@ -49,7 +47,6 @@ export default function Experience() {
               <div className="card-body">
                 <img src={Sales} className="card-img-top" alt="..."></img>
                 <h5 className="card-title">Salesforce Developer</h5>
-                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p className="card-text">
                   This job taught me what it takes to be a developer. Despite
                   having no prior expertise with Salesforce, I was able to fix a
