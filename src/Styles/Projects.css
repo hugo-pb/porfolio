@@ -31,3 +31,6 @@ display: block;
      align-items: center;
      flex-wrap: wrap;
 }
+ .btn{
+    margin: 1rem;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import "../Styles/Projects.css";
 import Weather from "./images/WeatherAPP.png";
 import Wedding from "./images/Weddingrsvp.png";
@@ -20,14 +20,15 @@ export default function Projects() {
           />
         </div>
         <div className="col-md-6 project ">
-          <h3>Weather APP</h3>
+          <h3>Just weather</h3>
           <p>
-            <small>First React.js Project </small>
+            {" "}
+            <em>react.js, bootstrap, particles.js and OpenWeatherAPI</em>
           </p>
           <p>
-            Another Weather app? After learning state, props, components, and
-            how powerful React is, I decided to build an app using all of the
-            different things I was learning.
+            But everyone makes a weather app... Yeah! but the idea is to make it
+            unique because it's a wonderful approach to learn how to fetch data
+            from an API.
           </p>
           <p>
             Just weather is... well just weather, using OpenWeather API, hosting
@@ -35,12 +36,24 @@ export default function Projects() {
             a diferent feel, the user can look up any city in the word and look
             at the current weather and weekly forecast.
           </p>
-          <button type="button" class="btn btn-outline-primary">
+          <a
+            type="button"
+            class="btn btn-outline-primary"
+            href="https://reactjustweather.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Demo
-          </button>
-          <button type="button" class="btn btn-outline-primary">
+          </a>
+          <a
+            type="button"
+            class="btn btn-outline-primary"
+            href="https://github.com/hugo-pb/React-Weather-App"
+            target="_blank"
+            rel="noreferrer"
+          >
             Code
-          </button>
+          </a>
         </div>
       </div>
       <hr />
@@ -57,20 +70,25 @@ export default function Projects() {
         <div className="col-md-6 project ">
           <h3>Wedding </h3>
           <p>
-            After learning state, props, components, and how powerful React is,
-            I decided to build an app using all of the different things I was
-            learning.
+            {" "}
+            <em> First Team project, responsive design, mapboxAPI </em>
           </p>
           <p>
-            Just weather is... well just weather, using OpenWeather API, hosting
-            it with netlify, and using a cool interactive background to give it
-            a diferent feel, the user can look up any city in the word and look
-            at the current weather and weekly forecast.
+            A family project that thougt me how to work as a team, adapting to
+            different codding styles. This project is really special for me
+            because it was the invitation and rsvp page for my own wedding.
+            (sorry code is not avialible)
           </p>
-          <button type="button" class="btn btn-outline-primary">
+          <a
+            type="button"
+            class="btn btn-outline-primary"
+            href="https://hugojocelyn.com/rsvp.html"
+            target="_blank"
+            rel="noreferrer"
+          >
             Demo
-          </button>
-          <button type="button" class="btn btn-outline-primary">
+          </a>
+          <button type="button" class="btn btn-outline-primary" disabled>
             Code
           </button>
         </div>
@@ -88,26 +106,31 @@ export default function Projects() {
         </div>
         <div className="col-md-6 project ">
           <h3>Team Pal Designs</h3>
+
+          
           <p>
-            <small>First React.js Project </small>
+            Side hustle website created with pure html-css-js that promote our
+            ideas and services to busines. We have been able to help a number of
+            a few different businesses, providing valuable online tools.
           </p>
-          <p>
-            After learning state, props, components, and how powerful React is,
-            I decided to build an app using all of the different things I was
-            learning.
-          </p>
-          <p>
-            Just weather is... well just weather, using OpenWeather API, hosting
-            it with netlify, and using a cool interactive background to give it
-            a diferent feel, the user can look up any city in the word and look
-            at the current weather and weekly forecast.
-          </p>
-          <button type="button" class="btn btn-outline-primary">
+          <a
+            type="button"
+            class="btn btn-outline-primary"
+            href="https://www.teampal.ca/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Demo
-          </button>
-          <button type="button" class="btn btn-outline-primary">
+          </a>
+          <a
+            type="button"
+            class="btn btn-outline-primary"
+            href="https://github.com/hugo-pb/Teampal"
+            target="_blank"
+            rel="noreferrer"
+          >
             Code
-          </button>
+          </a>
         </div>
       </div>
       <hr />
