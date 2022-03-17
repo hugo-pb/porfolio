@@ -1,10 +1,17 @@
+.About{
+    background-color: #DFECF4;
+}
+
 .About p {
+   
     padding-left: 1rem;
     padding-right: 2rem;
+    margin-top: 1rem;
 }
 .About h2 {
     text-align: center;
-    margin-top: 1rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 .About h4 {
     margin-left: 2rem ;
@@ -23,5 +30,5 @@ display: flex;
     color:black
 }
 .About a:hover{
-    color:#FFCDB2;
+    color:#003480;
 }
