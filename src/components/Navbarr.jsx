@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Styles/Navbarr.css"
 import Me from "./images/hugo-compu.png";
-import { Nav, Navbar, Container, Button,Image } from 'react-bootstrap';
+import { Nav, Navbar, Container,Image } from 'react-bootstrap';
 export default function Navbarr() {
     return (
       <div className="Navbarr">
@@ -30,9 +30,13 @@ export default function Navbarr() {
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#Exp">Experience</Nav.Link>
                 <Nav.Link href="#Projects">Projects</Nav.Link>
-                <Button className="btn" variant="outline-light">
+                <a href='#Contact'
+                  className="btn btn-outline-light"
+                  type="button"
+                  variant="outline-light"
+                >
                   Contact Me!
-                </Button>
+                </a>
               </Nav>
             </Navbar.Collapse>
           </Container>

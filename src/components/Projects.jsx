@@ -107,7 +107,6 @@ export default function Projects() {
         <div className="col-md-6 project ">
           <h3>Team Pal Designs</h3>
 
-          
           <p>
             Side hustle website created with pure html-css-js that promote our
             ideas and services to busines. We have been able to help a number of
@@ -133,6 +132,17 @@ export default function Projects() {
           </a>
         </div>
       </div>
+      <h3>
+        This porfolio{" "}
+        <a
+          href="https://github.com/hugo-pb/porfolio"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Code
+        </a>{" "}
+        is also on GitHub!
+      </h3>
       <hr />
     </div>
   );
