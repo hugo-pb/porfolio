@@ -37,7 +37,11 @@ export default function Navbarr() {
                     className="btn btn-outline-light"
                     type="button"
                     variant="outline-light"
-                  >
+                  style={{
+                    marginTop: '0',
+                  marginBottom: '0'
+                  }}  
+                >
                     Contact Me!
                   </a>
                 
