@@ -68,9 +68,8 @@ export default function Projects() {
           ></Image>
         </div>
         <div className="col-md-6 project ">
-          <h3>Wedding </h3>
+          <h3>Wedding invitation / RSVP Form</h3> <br />
           <p>
-            {" "}
             <em> First Team project, responsive design, mapboxAPI </em>
           </p>
           <p>

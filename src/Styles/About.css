@@ -1,11 +1,12 @@
 .About{
-    background-color: #DFECF4;
+   background-color: rgba(207, 207, 207, 0.151);
+ 
 }
 
 .About p {
-   
-    padding-left: 1rem;
-    padding-right: 2rem;
+   font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 6rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
     margin-bottom: 0;

@@ -30,14 +30,11 @@ export default function Experience() {
                   >
                     Digitize Media
                   </a>{" "}
-                  We build and maintain websites for small and medium
-                  businesses. While collaborating with their team, I learned
-                  valuable lessons, but I quickly realised that working with
-                  them was not going to help me achieve my goal of becoming a
-                  software developer because they only work with paid themes and
-                  drag and build programmes like Elementor. I'm still in contact
-                  with them and helping with different projects but my main
-                  focus now is to learn React.js.
+                  We helped small and medium-sized enterprises by designing and
+                  maintaining their websites. Our primary goal was to assist
+                  businesses in growing by providing a professional website that
+                  represents their authority in their field as well as marketing
+                  techniques such as pay-per-click advertising.
                 </p>
               </div>
             </div>
@@ -48,9 +45,8 @@ export default function Experience() {
                 <img src={Sales} className="card-img-top" alt="..."></img>
                 <h5 className="card-title">Salesforce Developer</h5>
                 <p className="card-text">
-                  This job taught me what it takes to be a developer. Despite
-                  having no prior expertise with Salesforce, I was able to fix a
-                  major problem for{" "}
+                  Despite having no prior expertise with Salesforce, I was able
+                  to fix a major problem for{" "}
                   <a
                     href="https://www.insuremontrose.com"
                     target="_blank"
