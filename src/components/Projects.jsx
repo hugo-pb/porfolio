@@ -38,7 +38,7 @@ export default function Projects() {
           </p>
           <a
             type="button"
-            class="btn btn-outline-primary"
+            className="btn btn-outline-primary"
             href="https://reactjustweather.netlify.app/"
             target="_blank"
             rel="noreferrer"
@@ -47,7 +47,7 @@ export default function Projects() {
           </a>
           <a
             type="button"
-            class="btn btn-outline-primary"
+            className="btn btn-outline-primary"
             href="https://github.com/hugo-pb/React-Weather-App"
             target="_blank"
             rel="noreferrer"
@@ -80,7 +80,7 @@ export default function Projects() {
           </p>
           <a
             type="button"
-            class="btn btn-outline-primary"
+            className="btn btn-outline-primary"
             href="https://hugojocelyn.com/rsvp.html"
             target="_blank"
             rel="noreferrer"
@@ -113,7 +113,7 @@ export default function Projects() {
           </p>
           <a
             type="button"
-            class="btn btn-outline-primary"
+            className="btn btn-outline-primary"
             href="https://www.teampal.ca/"
             target="_blank"
             rel="noreferrer"
@@ -122,7 +122,7 @@ export default function Projects() {
           </a>
           <a
             type="button"
-            class="btn btn-outline-primary"
+            className="btn btn-outline-primary"
             href="https://github.com/hugo-pb/Teampal"
             target="_blank"
             rel="noreferrer"
