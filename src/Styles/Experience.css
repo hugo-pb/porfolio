@@ -1,19 +1,19 @@
 .Experience h2 {
 text-align: center;
 padding-top: 3rem;
-color: #DFECF4;
+
 margin-bottom: 2rem;
 font-family:'Inspiration';
 font-size: 5rem;
 }
-.Experience {
+/* .Experience {
     background-image: url(../components/images/back4.jpg);
   background-size: cover;
 background-attachment: fixed;
  background-position: center;
-}
+} */
 .Experience .card {
-color: #002E7B;
+
     margin-bottom: 3rem;
-    background-color: #DFECF4;
+  
 }
