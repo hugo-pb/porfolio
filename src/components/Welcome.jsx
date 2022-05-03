@@ -7,16 +7,20 @@ export default function Welcome() {
     <div className="Welcome " id="Home">
       <div className="container">
         <div className="row">
-          <div className="">
-            {" "}
-            <h1>Hey There!!</h1>
+          <div className="" style={{ position: 'absolute', top: '10rem', width:'13rem'}}>
+            <p>
+              HUGO PALOMERA
+              <br />
+              SOFTWARE ENGINEER
+            </p>{" "}
+            {/* <h1>Hey There!!</h1>
             <p>
               This is Hugo, a front-end developer with a passion for learning and
             problem-solving. I fell in love with coding while collaborating
               with programmers at the Watch Tower Bible and Tract Society of
               Canada, after which I decided to make it a career. I look forward
               to contributing to new solutions and growing in the industry
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

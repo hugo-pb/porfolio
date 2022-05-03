@@ -16,15 +16,13 @@ export default function About() {
       <Tabs activeKey={key} onSelect={(k) => setKey(k)}>
         <Tab eventKey="home" title="Why coding?">
           <p>
-            "Challenge accepted!" Since I was a little kid, I loved solving
-            puzzles, thinking outside the box, and coming up with unique ideas,
-            but I always said that computers were not my thing, until I worked
-            along side programmers and instantly I wanted to learn more.
+            This is Hugo, a front-end developer with a passion for learning and
+            problem-solving. I fell in love with coding while collaborating with
+            programmers at the Watch Tower Bible and Tract Society of Canada,
+            after which I decided to make it a career. I look forward to
+            contributing to new solutions and growing in the industry
           </p>
-          <p>
-            I began learning on MDN, Docs, and Google and creating projects to
-            put what I was learning to use.
-          </p>
+        
         </Tab>
         <Tab eventKey="coding" title="When Im not coding? ">
           <p>When I'm not coding, I volunteer as a full-time Bible teacher.</p>

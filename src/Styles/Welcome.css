@@ -4,8 +4,9 @@
     text-align: center;
    align-items: center;
         justify-content: center;
- background-image: url(../components/images/back3.jpg);
+ background-image: url(../components/images/me.jpg);
 background-size: cover;
 background-attachment: fixed;
  background-position: center;
+
 }
