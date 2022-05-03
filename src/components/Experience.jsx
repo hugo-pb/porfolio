@@ -1,13 +1,19 @@
-import React from "react";
-import { Container } from "react-bootstrap";
+import React, {useEffect} from "react";
+
 import "../Styles/Experience.css";
 import Own from "./images/3own.png";
 import Sales from "./images/Salesforce.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Experience() {
+    useEffect(() => {
+      AOS.init({ duration: 3000 });
+    }, []);
   return (
     <div className="Experience" id="Exp">
-      <h2>Experience</h2>
-      <Container
+      <h2 data-aos="zoom-out-down">Experience</h2>
+      <div
+        className="container"
         style={{
           display: "flex",
           justifyContent: "space-around",
@@ -16,7 +22,7 @@ export default function Experience() {
         {" "}
         <div className="row">
           <div className="col-md-6">
-            <div className="card">
+            <div className="card" data-aos="flip-left">
               <div className="card-body">
                 <img src={Own} className="card-img-top" alt="..."></img>
                 <h5 className="card-title">WordPress Developer</h5>
@@ -40,7 +46,7 @@ export default function Experience() {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="card">
+            <div className="card" data-aos="flip-right">
               <div className="card-body">
                 <img src={Sales} className="card-img-top" alt="..."></img>
                 <h5 className="card-title">Salesforce Developer</h5>
@@ -66,7 +72,7 @@ export default function Experience() {
             </div>
           </div>
         </div>
-      </Container>
+      </div>
     </div>
   );
 }

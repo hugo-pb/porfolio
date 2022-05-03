@@ -1,18 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Tabs, Tab } from "react-bootstrap";
 import "../Styles/About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   faInstagram,
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 export default function About() {
+   useEffect(() => {
+     AOS.init({ duration: 3000 });
+   }, []);
   const [key, setKey] = useState("home");
   return (
     <div className="About">
-      <h2>About Me!</h2>
+      <h2 data-aos="zoom-in-up">About Me!</h2>
       <Tabs activeKey={key} onSelect={(k) => setKey(k)}>
         <Tab eventKey="home" title="Why coding?">
           <p>
@@ -22,7 +26,6 @@ export default function About() {
             after which I decided to make it a career. I look forward to
             contributing to new solutions and growing in the industry
           </p>
-        
         </Tab>
         <Tab eventKey="coding" title="When Im not coding? ">
           <p>When I'm not coding, I volunteer as a full-time Bible teacher.</p>

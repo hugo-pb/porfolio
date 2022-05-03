@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import "../Styles/Welcome.css";
 export default function Welcome() {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
   return (
     <div className="Welcome " id="Home">
       <div className="container">
         <div className="row">
-          <div className="" style={{ position: 'absolute', top: '10rem', width:'13rem'}}>
-            <p>
+          <div
+            className=""
+            style={{ position: "absolute", top: "10rem", width: "13rem" }}
+          >
+            <p data-aos="fade-left">
               HUGO PALOMERA
               <br />
               SOFTWARE ENGINEER
