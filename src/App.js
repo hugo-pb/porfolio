@@ -1,19 +1,20 @@
-import Navbarr from './components/Navbarr';
+
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Welcome from './components/Welcome';
-import About from "./components/About";
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-
+import { Routes, Route,  } from "react-router-dom";
+import About from './components/About'
+import Experience from './components/Experience'
 function App() {
   
   return (
     <div className="App">
       {/* <Navbarr /> */}
-      <Welcome />
+      <Routes>
+        <Route path="/" element={<Welcome />} />{" "}
+        <Route path="about" element={<About />} />
+        <Route path="Experience" element={<Experience />} />
+      </Routes>
       {/* <About />
     
       <Experience />

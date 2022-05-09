@@ -3,8 +3,9 @@ import tunnel from "./images/tunnel.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import me from './images/hugo-compu.png'
-
+import { Link } from "react-router-dom";
 import "../Styles/Welcome.css";
+import { hover } from "@testing-library/user-event/dist/hover";
 export default function Welcome() {
   useEffect(() => {
     AOS.init({ duration: 3000 });
@@ -19,17 +20,20 @@ export default function Welcome() {
               <br />
               SOFTWARE DEVELOPER
             </p>{" "}
-            
           </div>
         </div>
       </div>
       <div className="image">
-        <p className="link">Experience</p>
-        <img className="tunnel" src={tunnel} alt="tunnel" />
+        <Link to="Experience" style={{ color: "black" , }}>
+          <p className="link">Experience</p>
+          <img className="tunnel" src={tunnel} alt="tunnel" />
+        </Link>
       </div>
       <div className="image-2">
-        <p className="link">About Me</p>
-        <img className="tunnel" src={tunnel} alt="tunnel" />
+        <Link to="about" style={{ color:"black", }}>
+          <p className="link">About Me</p>
+          <img className="tunnel" src={tunnel} alt="tunnel" />
+        </Link>
       </div>
     </div>
   );
