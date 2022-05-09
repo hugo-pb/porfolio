@@ -1,12 +1,68 @@
-.Welcome{
-    display: flex;
- min-height: 100vh;
+.Welcome {
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../components/images/mariobg.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.title {
+  position: absolute;
+  top: 10rem;
+  background-color: #e25f0d;
+  max-width: 35rem;
+  height: 15rem;
+   display: flex;
+    align-items: center;
     text-align: center;
-   align-items: center;
-        justify-content: center;
- background-image: url(../components/images/me.jpg);
-background-size: cover;
-background-attachment: fixed;
- background-position: center;
+    justify-content: center;
+   
+}
+p{
+   font-family: "Super Plumber Brothers";
+   margin: 0;
+    font-size: 4rem;
+}
+@media screen and (max-width: 480px) {
+  .title {
+    background-color: #e25f0d;
+    max-width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  p {
+    margin: 0;
+     font-size: 3rem;
+    
+  }
+  .Welcome {
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../components/images/mariobg.png);
 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 65%;
+  }
+}
+
+@media screen and (min-width: 986px){
+   .title{
+      width:50rem;
+      height: 20rem;
+   }
+   p {
+    margin: 0;
+     font-size: 5rem;
+    
+  }
 }

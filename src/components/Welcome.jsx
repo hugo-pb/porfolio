@@ -13,8 +13,8 @@ export default function Welcome() {
       <div className="container">
         <div className="row">
           <div
-            className=""
-            style={{ position: "absolute", top: "10rem", width: "13rem" }}
+            className="title"
+            
           >
             <p data-aos="fade-left">
               HUGO PALOMERA
