@@ -1,6 +1,7 @@
+
 .Welcome {
   display: flex;
-  min-height: 100vh;
+
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -8,6 +9,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+    min-height:1000px;
 }
 .title {
   position: absolute;
@@ -15,16 +17,38 @@
   background-color: #e25f0d;
   max-width: 35rem;
   height: 15rem;
-   display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-   
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-p{
-   font-family: "Super Plumber Brothers";
-   margin: 0;
-    font-size: 4rem;
+p {
+  font-family: "Super Plumber Brothers";
+  margin: 0;
+  font-size: 4rem;
+}
+.image {
+  height: 0rem;
+  position: absolute;
+  right: 35rem;
+  top: 40.5rem;
+}
+.image-2{
+  height: 0rem;
+  position: absolute;
+  right: 15rem;
+  top: 40.5rem;
+}
+.tunnel {
+  height: 5rem;
+}
+.link{
+   font-size: 3rem;
+}
+.me {
+margin: 0;
+padding-bottom: 1rem;
+   width: 4rem;
 }
 @media screen and (max-width: 480px) {
   .title {
@@ -38,12 +62,11 @@ p{
   }
   p {
     margin: 0;
-     font-size: 3rem;
-    
+    font-size: 3rem;
   }
   .Welcome {
     display: flex;
-    min-height: 100vh;
+    min-height: 100;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -53,16 +76,51 @@ p{
     background-attachment: fixed;
     background-position: 65%;
   }
+  .image {
+    height: 0rem;
+    position: absolute;
+    right: 1rem;
+    top: 25rem;
+  }
+   .image-2 {
+    height: 0rem;
+    position: absolute;
+    right: 13rem;
+    top: 25rem;
+  }
+  .tunnel {
+    height: 8rem;
+  }
+  .link {
+    font-size: 2rem;
+  }
 }
 
-@media screen and (min-width: 986px){
-   .title{
-      width:50rem;
-      height: 20rem;
-   }
-   p {
-    margin: 0;
-     font-size: 5rem;
-    
+@media screen and (min-width: 986px) {
+  .title {
+    width: 700px;
+    height: 20rem;
+     border-color: #e25f0d;
+
   }
+  p {
+    margin: 0;
+    
+  
+  }
+  .image {
+  height: 0rem;
+  position: absolute;
+  right: 90rem;
+  top: 39.5rem;
+}
+.image-2{
+  height: 0rem;
+  position: absolute;
+  right: 60rem;
+  top: 39.5rem;
+}
+.tunnel {
+  height: 10rem;
+}
 }
