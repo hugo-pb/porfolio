@@ -1,15 +1,14 @@
 .About{
-   background-color: rgba(207, 207, 207, 0.151);
- 
+ background-image: url('../components/images/bgcast.webp');
 }
-
+.About .container{
+    
+   background-color: whitesmoke;
+   z-index: 1;
+}
 .About p {
    font-size: 1.5rem;
-    padding-left: 5rem;
-    padding-right: 6rem;
-    padding-bottom: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
+   font-family: 'popins';
 }
 .About h2 {
     text-align: center;
@@ -43,4 +42,12 @@ display: flex;
     padding-bottom: 1rem;
     text-align: center;
     list-style: none;
+     }
+     .About .me2 {
+         width: 100%;
+     }
+@media screen and (max-width: 1000px) {
+.About .ic {
+    font-size: 5rem;
+}
      }
