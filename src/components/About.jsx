@@ -4,6 +4,7 @@ import "../Styles/About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 import {
   faInstagram,
   faGithub,

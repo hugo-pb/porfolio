@@ -15,7 +15,7 @@ export default function Navbarr() {
               }}
             />
             <Navbar.Brand
-              href="#home"
+              href="/"
               style={{
                 fontFamily: "Inspiration",
                 fontSize: "2rem",
