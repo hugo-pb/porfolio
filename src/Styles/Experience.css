@@ -16,4 +16,7 @@ background-attachment: fixed;
 
     margin-bottom: 3rem;
   
+}.Experience p {
+  font-family: poppins;
+  font-size: 1.6rem;
 }

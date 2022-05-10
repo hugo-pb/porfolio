@@ -5,12 +5,14 @@ import Own from "./images/3own.png";
 import Sales from "./images/Salesforce.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Navbarr from "./Navbarr";
 export default function Experience() {
     useEffect(() => {
       AOS.init({ duration: 3000 });
     }, []);
   return (
     <div className="Experience" id="Exp">
+      <Navbarr />
       <h2 data-aos="zoom-out-down">Experience</h2>
       <div
         className="container"

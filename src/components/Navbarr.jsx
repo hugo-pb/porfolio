@@ -28,23 +28,9 @@ export default function Navbarr() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#Exp">Experience</Nav.Link>
-                <Nav.Link href="#Projects">Projects</Nav.Link>
-          
-                  <a
-                    href="#Contact"
-                    className="btn btn-outline-light"
-                    type="button"
-                    variant="outline-light"
-                  style={{
-                    marginTop: '0',
-                  marginBottom: '0'
-                  }}  
-                >
-                    Contact Me!
-                  </a>
-                
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/Experience">Experience</Nav.Link>
+                <Nav.Link href="/About">About Me</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
