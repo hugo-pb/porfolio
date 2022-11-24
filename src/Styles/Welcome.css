@@ -1,7 +1,6 @@
 .Welcome {
   display: flex;
   flex-direction: row;
-
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -64,28 +63,18 @@ p {
   }
   .Welcome {
     display: flex;
-    min-height: 100;
+    flex-direction: column;
+
     text-align: center;
     align-items: center;
     justify-content: center;
     background-image: url(../components/images/mariobg.png);
-
     background-size: cover;
     background-attachment: fixed;
-    background-position: 65%;
+    background-position: center;
+    min-height: 1000px;
   }
-  .image {
-    height: 0rem;
-    position: absolute;
-    right: 1rem;
-    top: 25rem;
-  }
-  .image-2 {
-    height: 0rem;
-    position: absolute;
-    right: 13rem;
-    top: 25rem;
-  }
+
   .tunnel {
     height: 8rem;
   }
@@ -95,6 +84,16 @@ p {
 }
 
 @media screen and (min-width: 986px) {
+  .Welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../components/images/mariobg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 1000px;
+  }
   .title {
     width: 700px;
     height: 20rem;
@@ -103,18 +102,7 @@ p {
   p {
     margin: 0;
   }
-  .image {
-    height: 0rem;
-    position: absolute;
-    right: 90rem;
-    top: 39.5rem;
-  }
-  .image-2 {
-    height: 0rem;
-    position: absolute;
-    right: 60rem;
-    top: 39.5rem;
-  }
+
   .tunnel {
     height: 10rem;
   }
