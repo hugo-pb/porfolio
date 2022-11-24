@@ -1,5 +1,6 @@
 .Welcome {
   display: flex;
+  flex-direction: row;
 
   text-align: center;
   align-items: center;
@@ -27,15 +28,9 @@ p {
 }
 .image {
   height: 0rem;
-  position: absolute;
-  right: 35rem;
-  top: 40.5rem;
 }
 .image-2 {
   height: 0rem;
-  position: absolute;
-  right: 15rem;
-  top: 40.5rem;
 }
 .tunnel {
   height: 5rem;

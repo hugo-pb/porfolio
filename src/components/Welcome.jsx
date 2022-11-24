@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import tunnel from "./images/tunnel.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import me from './images/hugo-compu.png'
+import me from "./images/hugo-compu.png";
 import { Link } from "react-router-dom";
 import "../Styles/Welcome.css";
 export default function Welcome() {
@@ -22,17 +22,19 @@ export default function Welcome() {
           </div>
         </div>
       </div>
-      <div className="image">
-        <Link to="Experience" style={{ color: "black" , }}>
-          <p className="link">Experience</p>
-          <img className="tunnel" src={tunnel} alt="tunnel" />
-        </Link>
-      </div>
-      <div className="image-2">
-        <Link to="about" style={{ color:"black", }}>
-          <p className="link">About Me</p>
-          <img className="tunnel" src={tunnel} alt="tunnel" />
-        </Link>
+      <div className="links">
+        <div className="image">
+          <Link to="Experience" style={{ color: "black" }}>
+            <p className="link">Experience</p>
+            <img className="tunnel" src={tunnel} alt="tunnel" />
+          </Link>
+        </div>
+        <div className="image-2">
+          <Link to="about" style={{ color: "black" }}>
+            <p className="link">About Me</p>
+            <img className="tunnel" src={tunnel} alt="tunnel" />
+          </Link>
+        </div>
       </div>
     </div>
   );
